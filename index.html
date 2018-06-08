@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1><marquee>WELCOME TO THE JUNGLE!!!</marquee></h1>
+	</header>
+
+	<div class = 'container'>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class ="col-8" id="instructions">
+                <h3>INSTRUCTIONS:</h3>
+                <p>There are 8 questions.</p>
+                <p>You'll have 15 seconds for each questions to be answered.</p>
+                <p>If you run out of time without answering the question, it will automatically skips to the next question.</p>
+                <p>Once you've completed all the questions, your total score along with the total number of answered and unanswered questions will be displayed.</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+		
+		<button class = 'btn btn-primary' id = 'startBtn'>Start</button>
+			<!-- Question page -->
+			<div id = timeLeft></div> 
+			<div id = currentQuestion></div> 
+			<div class = 'question'></div>
+			<div class = 'answerList'></div>
+		
+			<!-- Answer Page -->
+			<div id = message></div>
+			<div id = correctedAnswer></div>
+			<div id = gif></div>
+		
+			<!-- Result Display -->
+			<div id = finalMessage></div>
+			<div id = correctAnswers></div>
+			<div id = incorrectAnswers></div>
+			<div id = unanswered></div>
+			<div id = 'startOverBtn'></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script type = "text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

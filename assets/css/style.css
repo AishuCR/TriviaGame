@@ -1,0 +1,66 @@
+h1{
+    color:red;
+    
+    font-size:56px;
+}
+#startBtn{
+    margin-right:40%;
+    margin-left:40%;
+    width:20%;
+}
+#startOverBtn{
+    margin-right:40%;
+    margin-left:40%;
+    width:20%;
+    color:white;
+    background-color:blue;
+
+}
+body{
+    background-image: url(../images/tvbackground.jpg);
+    bottom:0px;
+    height:100%;
+}
+#instructions{
+    color:orangered;
+    font-size: 24px;
+    text-align: center;
+}
+.question{
+    text-align:center;
+}
+.answerList{
+    text-align:center;
+    
+}
+
+#timeLeft{
+color: chartreuse;
+text-align:center;
+}
+#currentQuestion{
+color:orange;
+}
+#message{
+color: yellow;
+font-size: 28px;
+text-align:center;
+}
+#correctedAnswer{
+color: turquoise;
+}
+#gif{
+
+}
+#finalMessage{
+color: turquoise;
+}
+#correctAnswers{
+    color: turquoise;
+}
+#incorrectAnswers{
+    color: turquoise;
+}
+#unanswered{
+    color: turquoise;
+}
