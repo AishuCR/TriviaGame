@@ -12,14 +12,16 @@ h1{
     margin-right:40%;
     margin-left:40%;
     width:20%;
+    text-align:center;
+    font-size:28px;
     color:white;
     background-color:blue;
 
 }
 body{
-    background-image: url(../images/tvbackground.jpg);
-    bottom:0px;
+    background-image: url(../images/triviabg.jpg);
     height:100%;
+   width:100%;
 }
 #instructions{
     color:orangered;
@@ -28,9 +30,12 @@ body{
 }
 .question{
     text-align:center;
+    color: chartreuse;
 }
 .answerList{
     text-align:center;
+    color: deeppink;
+    font-size: 28px;
     
 }
 
@@ -40,6 +45,7 @@ text-align:center;
 }
 #currentQuestion{
 color:orange;
+font-size:28px;
 }
 #message{
 color: yellow;
@@ -48,19 +54,25 @@ text-align:center;
 }
 #correctedAnswer{
 color: turquoise;
+font-size: 28px;
 }
-#gif{
 
-}
 #finalMessage{
 color: turquoise;
+font-size: 28px;
 }
 #correctAnswers{
     color: turquoise;
+    font-size: 28px;
 }
 #incorrectAnswers{
     color: turquoise;
+    font-size: 28px;
 }
 #unanswered{
     color: turquoise;
+    font-size: 28px;
+}
+#gif{
+    text-align: center;
 }
