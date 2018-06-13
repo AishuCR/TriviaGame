@@ -65,6 +65,9 @@ font-size: 28px;
     color: turquoise;
     font-size: 28px;
 }
+#correctedAnswer{
+    text-align:center;
+}
 #incorrectAnswers{
     color: turquoise;
     font-size: 28px;

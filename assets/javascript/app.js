@@ -173,7 +173,7 @@ function answerPage() {
 	} else {
 		unanswered++;
 		$('#message').html(messages.endTime);
-		$('#correctedAnswer').html('The correct answer was: ' + rightAnswerText);
+		$('#correctedAnswer').html('The correct answer is: ' + rightAnswerText);
 		answered = true;
 	}
 
