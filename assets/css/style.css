@@ -1,12 +1,9 @@
-h1{
-    color:red;
-    
-    font-size:56px;
-}
+
 #startBtn{
     margin-right:40%;
     margin-left:40%;
     width:20%;
+    background-color: green;
 }
 #startOverBtn{
     margin-right:40%;
@@ -15,13 +12,37 @@ h1{
     text-align:center;
     font-size:28px;
     color:white;
-    background-color:blue;
+    background-color:green;
 
 }
+.hero-image {
+background-image :linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Trivia-bg.jpg");
+
+    /* Set a specific height */
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: yellow;
+    transform: translate(-50%, -50%);
+}
 body{
-    background-image: url(../images/triviabg.jpg);
+    background-color: yellow;
     height:100%;
+    opacity: 0.9;
    width:100%;
+   
+}
+.content{
+    width:100%;
+    height:100%;
 }
 #instructions{
     color:orangered;
@@ -30,51 +51,56 @@ body{
 }
 .question{
     text-align:center;
-    color: chartreuse;
+    color: green;
 }
 .answerList{
     text-align:center;
-    color: deeppink;
+    color: orangered;
     font-size: 28px;
     
 }
 
 #timeLeft{
-color: chartreuse;
+color: red;
 text-align:center;
 }
 #currentQuestion{
-color:orange;
+color:orangered;
 font-size:28px;
+text-align: center;
 }
 #message{
-color: yellow;
+color: orangered;
 font-size: 28px;
 text-align:center;
 }
 #correctedAnswer{
-color: turquoise;
+color: orangered;
 font-size: 28px;
 }
 
 #finalMessage{
-color: turquoise;
+color: orangered;
 font-size: 28px;
+text-align: center;
 }
 #correctAnswers{
-    color: turquoise;
+    color: orangered;
     font-size: 28px;
+    text-align: center;
 }
 #correctedAnswer{
     text-align:center;
 }
 #incorrectAnswers{
-    color: turquoise;
+    color: orangered;
     font-size: 28px;
+    text-align: center;
 }
 #unanswered{
-    color: turquoise;
+    color: orangered;
     font-size: 28px;
+    text-align: center;
 }
 #gif{
     text-align: center;
